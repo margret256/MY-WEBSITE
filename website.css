@@ -1,0 +1,173 @@
+   
+        body {
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            background-color:#eccccc;
+        }
+
+        .hero {
+            height: 100vh;
+            background: linear-gradient(to right, #4904eb, #007bff, red);
+            color: rgb(46, 90, 233);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            text-align: center;
+        }
+
+        .hero h1 {
+            font-size: 3rem;
+            font-weight: bold;
+            color: #05000b;
+        }
+
+        .hero p {
+            font-size: 1.2rem;
+            color: black;
+        }
+
+        .section-title {
+            margin: 50px 0 30px;
+            text-align: center;
+        }
+
+        footer {
+            background: #040000;
+            color: #f40505;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        /* General Card Styling */
+        .card {
+            border: none;
+            border-radius: 15px;
+            box-shadow: 0 6px 15px rgba(6, 0, 0, 0.916);
+            transition: all 0.3s ease;
+        }
+
+        /* Hover Effect */
+        .card:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 12px 25px rgba(0, 0, 0, 0.916);
+        }
+
+        /* Card Image */
+        .card img {
+            border-radius: 15px 15px 0 0;
+            transition: transform 0.3s ease;
+        }
+
+        /* Zoom image on hover */
+        .card:hover img {
+            transform: scale(1.05);
+        }
+
+        /* About Card */
+        #about .card {
+            background: #ef7878;
+            border-left: 5px solid #2575fc;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            text-align: center;
+        }
+
+        /* Services Cards */
+        #services .card {
+            background: #d1cccc;
+            border-top: 5px solid #6a11cb;
+            align-items: center;
+        }
+
+        /* Portfolio Cards */
+        #portfolio .card {
+            background: #c9bdef;
+            border-bottom: 5px solid #000204;
+            align-items: center;
+        }
+
+        /* Section Titles */
+        .section-title {
+            font-size: 2rem;
+            font-weight: bold;
+            color: #2575fc;
+            text-transform: uppercase;
+            margin-bottom: 40px;
+            position: relative;
+        }
+
+        .section-title::after {
+            content: '';
+            display: block;
+            width: 60px;
+            height: 4px;
+            background: #6a11cb;
+            margin: 10px auto 0;
+            border-radius: 2px;
+        }
+
+        /* Contact Section */
+/* #contact {
+  background: #e61818;
+} */
+
+/* Centering the form */
+#contact form {
+   background: linear-gradient(to right, #763ff7, #2f89ea, rgb(243, 54, 54));
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+  transition: all 0.3s ease;
+}
+
+/* Hover effect on form */
+#contact form:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 25px rgba(8, 0, 0, 0.858);
+}
+
+/* Input fields styling */
+#contact input,
+#contact textarea {
+  border-radius: 10px;
+  border: 3px solid #0c0000;
+  padding: 12px;
+  transition: all 0.3s ease;
+}
+
+/* Input focus effect */
+#contact input:focus,
+#contact textarea:focus {
+  border-color: #fc4925;
+  box-shadow: 0 0 8px rgba(45, 120, 250, 0.918);
+  outline: none;
+}
+
+/* Button styling */
+#contact button {
+  border-radius: 10px;
+  padding: 12px 20px;
+  transition: all 0.3s ease;
+}
+
+/* Button hover effect */
+#contact button:hover {
+  transform: translateY(-3px);
+  background: #6a11cb;
+  border-color: #05010a;
+}
+
+/* Contact Info text */
+#contact .text-center p a {
+  color: #2575fc;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+#contact .text-center p a:hover {
+  color: #6a11cb;
+}
+
+    

@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MY PORTIFIO</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="website.css">
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">MyPortfolio</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#portfolio">Portfolio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <h1>Hello, I'm <span style="color: yellow;">MARGRET NANYONGA</span></h1>
+        <p>FRONT-END DEVELOPER (JAVASCRIPT)</p>
+
+    </section>
+
+    <!-- About Section -->
+    <!-- About Section -->
+    <section id="about" class="container py-5">
+        <h2 class="section-title">About Me</h2>
+        <div class="row justify-content-center">
+            <div class="col-md-10">
+                <div class="card shadow p-4">
+                    <div class="row align-items-center">
+                        <!-- Profile Image -->
+                        <div class="col-md-5 text-center">
+                            <img src="images/maggie1.jpg" class="img-fluid rounded-circle shadow mb-3" alt="About Me">
+                        </div>
+                        <!-- About Text -->
+                        <div class="col-md-7">
+                            <h4 class="fw-bold">MARGRET NANYONGA</h4>
+                            <p>
+                                I'm a passionate and creative <strong>FRONT-END DEVELOPER</strong> who loves bringing
+                                ideas to life on the web.
+                                I specialize in building modern, responsive, and user-friendly websites using
+                                <strong>HTML, CSS, JavaScript, and Bootstrap.</strong>
+                            </p>
+                            <p>
+                                My <strong>MISSION</strong> is to deliver high-quality digital solutions that help
+                                businesses and individuals grow online.
+                                Outside coding, I enjoy learning new tech skills and exploring design trends.
+                            </p>
+                            <a href="#contact" class="btn btn-primary btn-sm">GET IN TOUCH</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="container py-5">
+        <h2 class="section-title">MY PROJECTS</h2>
+        <div class="row g-4">
+
+            <!-- Project 1 -->
+            <div class="col-md-4">
+                <div class="card shadow h-100">
+                    <a href="https://github.com/margret256/MAYONDOPROJECT">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Project One</h5>
+                            <p class="card-text">This project is called <strong>MAYONDO WOOD AND FURNITURE </strong>,
+                                its a system to track all activities going on in the company to make their either easy.
+                            </p>
+
+                        </div>
+                </div>
+            </div>
+
+            <!-- Project 2 -->
+            <div class="col-md-4">
+                <div class="card shadow h-100">
+                    <a href="https://github.com/margret256/TO-DO-LIST">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Project Two</h5>
+                            <p class="card-text">This project is about a <strong>TO-DO LIST</strong> which people use to
+                                list down the activities
+                                they are having to acomplish in their specified time </p>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="bg-light py-5">
+        <div class="container">
+            <h2 class="section-title">CONTACT ME</h2>
+            <div class="row justify-content-center">
+                <div class="col-md-6">
+                    <form class="text-center">
+                        <input type="text" id="name" class="form-control mb-3" placeholder="Your Name" required>
+                        <input type="email" id="email" class="form-control mb-3" placeholder="Your Email" required>
+                        <textarea id="message" class="form-control mb-3" rows="5" placeholder="Your Message"
+                            required></textarea>
+                        <button type="submit" class="btn btn-primary w-100">Send Message</button>
+                    </form>
+                </div>
+            </div>
+            <div class="text-center mt-4">
+                <p>Email: <a href="mailto:example@email.com">lwangamargert68@gmail.com</a></p>
+                <p>Phone: +256 773815442</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2025 MARGRET NANYONGA. All Rights Reserved.</p>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
