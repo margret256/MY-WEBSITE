@@ -52,13 +52,23 @@
      box-shadow: 0 12px 25px rgba(0, 0, 0, 0.916);
    }
 
-   /* Card Image */
-   .card img {
-     border-radius: 10px 10px 0 0;
-     transition: transform 0.3s ease;
-     height: 50%;
+   /* Make image circular */
+#about img,
+.card img {
+  width: 260px;           /* control the size */
+  height: 260px;          /* make it a perfect square */
+  border-radius: 50%;     /* makes it a circle */
+  object-fit: cover;      /* keeps face centered without stretching */
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease;
+}
 
-   }
+/* Optional hover effect */
+#about img:hover,
+.card img:hover {
+  transform: scale(1.05);
+}
+
 
    /* Zoom image on hover */
    .card:hover img {
