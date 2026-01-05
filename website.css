@@ -1,210 +1,198 @@
-   body {
-     font-family: Georgia, 'Times New Roman', Times, serif;
-     background-color: #f3c0c0;
-   }
-
-   .hero {
-     height: 100vh;
-     background: linear-gradient(to right, #5817ef, #1881f1, rgb(249, 33, 33));
-     color: rgb(46, 90, 233);
-     display: flex;
-     align-items: center;
-     justify-content: center;
-     flex-direction: column;
-     text-align: center;
-   }
-
-   .hero h1 {
-     font-size: 3rem;
-     font-weight: bolder;
-     color: #05000b;
-   }
-
-   .hero p {
-     font-size: 1.2rem;
-     color: black;
-   }
-
-   .section-title {
-     margin: 50px 0 30px;
-     text-align: center;
-   }
-
-   footer {
-     background: #040000;
-     color: #f40505;
-     padding: 20px 0;
-     text-align: center;
-   }
-
-   /* General Card Styling */
-   .card {
-     border: none;
-     border-radius: 15px;
-     box-shadow: 0 6px 15px rgba(6, 0, 0, 0.916);
-     transition: all 0.3s ease;
-     align-items: center;
-   }
-
-   /* Hover Effect */
-   .card:hover {
-     transform: translateY(-8px);
-     box-shadow: 0 12px 25px rgba(0, 0, 0, 0.916);
-   }
-
-   /* Make image circular */
-   #about img,
-   .card img {
-     width: 260px;
-     /* control the size */
-     height: 260px;
-     /* make it a perfect square */
-     border-radius: 50%;
-     /* makes it a circle */
-     object-fit: cover;
-     /* keeps face centered without stretching */
-     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
-     transition: transform 0.3s ease;
-   }
-
-   /* Optional hover effect */
-   #about img:hover,
-   .card img:hover {
-     transform: scale(1.05);
-   }
-
-
-   /* Zoom image on hover */
-   .card:hover img {
-     transform: scale(1.05);
-   }
-
-   /* About Card */
-   #about .card {
-     background: #df9a9a;
-     border-left: 3px solid #2575fc;
-     display: flex;
-     align-items: center;
-     justify-content: center;
-     flex-direction: column;
-     text-align: center;
-   }
-
- .email-link, .phone-link {
-  color: #007bff; /* blue color */
-  text-decoration: none;
-  font-weight: 500;
-  transition: color 0.3s ease;
+/* ============================= */
+/* 🌍 Global Styles              */
+/* ============================= */
+body {
+  margin: 0;
+  font-family: "Inter", "Segoe UI", sans-serif;
+  background-color: #f5f7fb;
+  color: #050303;
+  line-height: 1.6;
 }
 
-.email-link:hover, .phone-link:hover {
-  color: #0056b3; /* darker on hover */
+/* ============================= */
+/* 🌟 Hero Section               */
+/* ============================= */
+.hero {
+  height: 100vh;
+  background: linear-gradient(135deg, #4f46e5, #3b82f6);
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  padding: 0 20px;
+}
+
+.hero h1 {
+  color:#eeedf3;
+  font-size: 4rem;
+  font-weight: 900;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  margin-bottom: 10px;
+}
+
+.hero p {
+  color:whitesmoke;
+  font-size: 1.7rem;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bolder;
+  max-width: 600px;
+  opacity: 0.95;
+}
+
+/* ============================= */
+/* 🧩 Section Titles             */
+/* ============================= */
+.section-title {
+  font-size: 2rem;
+  font-weight: 700;
+  text-align: center;
+  color: #1f2937;
+  margin: 60px 0 40px;
+  position: relative;
+}
+
+.section-title::after {
+  content: "";
+  display: block;
+  width: 70px;
+  height: 4px;
+  background: #4f46e5;
+  margin: 12px auto 0;
+  border-radius: 5px;
+}
+
+/* ============================= */
+/* 🪪 Cards                      */
+/* ============================= */
+.card {
+  background: white;
+  border-radius: 16px;
+  padding: 25px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  text-align: center;
+}
+
+.card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 18px 40px rgba(0, 0, 0, 0.12);
+}
+
+/* ============================= */
+/* 🖼️ Images (Profile / Cards)   */
+/* ============================= */
+#about img,
+.card img {
+  width: 220px;
+  height: 220px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 15px;
+  border: 5px solid #eef2ff;
+  transition: transform 0.3s ease;
+}
+
+#about img:hover,
+.card img:hover {
+  transform: scale(1.05);
+}
+
+/* ============================= */
+/* 🙋 About Section              */
+/* ============================= */
+#about .card {
+  max-width: 700px;
+  margin: auto;
+}
+
+/* ============================= */
+/* 📁 Portfolio                  */
+/* ============================= */
+#portfolio {
+  text-align: center;
+}
+
+#portfolio a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* ============================= */
+/* ✉️ Contact Section            */
+/* ============================= */
+#contact form {
+  background: white;
+  padding: 35px;
+  border-radius: 16px;
+  max-width: 600px;
+  margin: auto;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+#contact form:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 18px 40px rgba(0, 0, 0, 0.12);
+}
+
+#contact input,
+#contact textarea {
+  width: 100%;
+  padding: 12px 14px;
+  margin-bottom: 15px;
+  border-radius: 10px;
+  border: 1.5px solid #d1d5db;
+  font-size: 0.95rem;
+  transition: border 0.3s ease, box-shadow 0.3s ease;
+}
+
+#contact input:focus,
+#contact textarea:focus {
+  border-color: #4f46e5;
+  box-shadow: 0 0 0 3px rgba(79, 70, 229, 0.15);
+  outline: none;
+}
+
+#contact button {
+  background: #4f46e5;
+  color: white;
+  border: none;
+  padding: 12px 22px;
+  border-radius: 10px;
+  font-size: 0.95rem;
+  cursor: pointer;
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+
+#contact button:hover {
+  background: #4338ca;
+  transform: translateY(-2px);
+}
+
+/* ============================= */
+/* 🔗 Links                      */
+/* ============================= */
+.email-link,
+.phone-link {
+  color: #4f46e5;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.email-link:hover,
+.phone-link:hover {
   text-decoration: underline;
 }
 
-
-
-   #portfolio {
-     text-align: center;
-   }
-
-   #portfolio .section-title {
-     font-size: 2rem;
-     font-weight: bold;
-     margin-bottom: 2rem;
-   }
-
-   #portfolio .card {
-     border: none;
-     transition: transform 0.3s ease, box-shadow 0.3s ease;
-     border-radius: 12px;
-   }
-
-   #portfolio .card:hover {
-     transform: translateY(-8px);
-     box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
-   }
-
-   #portfolio a {
-     text-decoration: none;
-     color: inherit;
-   }
-
-
-   /* Section Titles */
-   .section-title {
-     font-size: 2rem;
-     font-weight: bolder;
-     color: #2575fc;
-     text-transform: uppercase;
-     margin-bottom: 40px;
-     position: relative;
-   }
-
-   .section-title::after {
-     content: '';
-     display: block;
-     width: 60px;
-     height: 4px;
-     background: #6a11cb;
-     margin: 10px auto 0;
-     border-radius: 2px;
-   }
-
-
-   /* Centering the form */
-   #contact form {
-     background: linear-gradient(to right, #763ff7, #2f89ea, rgb(243, 54, 54));
-     padding: 30px;
-     border-radius: 15px;
-     box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
-     transition: all 0.3s ease;
-   }
-
-   /* Hover effect on form */
-   #contact form:hover {
-     transform: translateY(-5px);
-     box-shadow: 0 12px 25px rgba(8, 0, 0, 0.858);
-   }
-
-   /* Input fields styling */
-   #contact input,
-   #contact textarea {
-     border-radius: 10px;
-     border: 3px solid #0c0000;
-     padding: 12px;
-     transition: all 0.3s ease;
-   }
-
-   /* Input focus effect */
-   #contact input:focus,
-   #contact textarea:focus {
-     border-color: #fc4925;
-     box-shadow: 0 0 8px rgba(45, 120, 250, 0.918);
-     outline: none;
-   }
-
-   /* Button styling */
-   #contact button {
-     border-radius: 10px;
-     padding: 12px 20px;
-     transition: all 0.3s ease;
-   }
-
-   /* Button hover effect */
-   #contact button:hover {
-     transform: translateY(-3px);
-     background: #6a11cb;
-     border-color: #05010a;
-   }
-
-   /* Contact Info text */
-   #contact .text-center p a {
-     color: #2575fc;
-     text-decoration: none;
-     transition: all 0.3s ease;
-   }
-
-   #contact .text-center p a:hover {
-     color: #6a11cb;
-   }
+/* ============================= */
+/* 🦶 Footer                     */
+/* ============================= */
+footer {
+  background: #1f2937;
+  color: #e5e7eb;
+  padding: 25px 0;
+  text-align: center;
+  font-size: 0.9rem;
+}
