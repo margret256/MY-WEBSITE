@@ -397,7 +397,7 @@ export default function Portfolio() {
           <div className="container">
             <div className="pf-divider" />
             <h2 className="pf-section-title">About <span>Me</span></h2>
-            <p className="pf-section-sub">A little bit about who I am and what I do</p>
+            <p className="pf-section-sub">About who I am and what I do</p>
             <div className="row justify-content-center">
               <div className="col-lg-10">
                 <div className="pf-about-card">
