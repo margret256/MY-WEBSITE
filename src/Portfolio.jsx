@@ -48,10 +48,10 @@ const skillCategories = [
 ];
 
 const projects = [
- {
+  {
     title: "Beyond Sports Unified Corporate Sports Platform",
     description: "A platform for unified corporate sports management and engagement. Improving employee and individual wellness and team building through sports.",
-    link: "https://github.com/BEYOND-SPORTS-UNIFIED-CORPORATE",
+    link: "https://beyondsports.fitness/",
     tag: "Sports Platform",
   },
    {
@@ -65,6 +65,12 @@ const projects = [
     description: "A marketplace for farmers to buy and sell agricultural inputs, bringing farmers and suppliers together.",
     link: "https://github.com/margret256/FARM-INPUT-MARKETPLACE",
     tag: "Mobile App",
+  },
+   {
+    title: "My Portfolio",
+    description: "My personal portfolio website showcasing my projects, skills, and experience as a Frontend and Full Stack Developer.",
+    link: "https://my-website-margret.vercel.app/",
+    tag: "Portfolio",
   },
   {
     title: "Mayondo Wood & Furniture",
