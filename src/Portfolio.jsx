@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { useLocation } from "react-router-dom";
-import Layout from "./Layout";
+import layout from "./layout";
 import profileImage from "./assets/images/maggie.jpeg";
 
 const skillCategories = [
