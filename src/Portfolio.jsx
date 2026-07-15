@@ -39,11 +39,11 @@ const skillCategories = [
 ];
 
 const projects = [
-  { title: "Beyond Sports Unified Corporate Sports Platform", description: "A platform for unified corporate sports management and engagement. Improving employee and individual wellness and team building through sports.", link: "https://beyondsports.fitness/", tag: "Sports Platform" },
+  { title: "Beyond Sports Unified Corporate Sports Platform", description: "A platform for unified corporate sports management and engagement. Improving employee and individual wellness and team building through participating in setup challenges.", link: "https://beyondsports.fitness/", tag: "Sports Platform" },
   { title: "Grocery Buddy", description: "Add, edit, and delete grocery items, track amounts spent, and manage your list any time.", link: "https://github.com/margret256/GRORECYBUDDY", tag: "E-Commerce" },
-  { title: "Farm Input Marketplace", description: "A marketplace for farmers to buy and sell agricultural inputs, bringing farmers and suppliers together.", link: "https://github.com/margret256/FARM-INPUT-MARKETPLACE", tag: "Mobile App" },
+  { title: "Farm Input Marketplace", description: "A marketplace for farmers to buy and sell agricultural inputs, bringing farmers and suppliers together to buy and sell agricultural products.", link: "https://github.com/margret256/FARM-INPUT-MARKETPLACE", tag: "Mobile App" },
   { title: "My Portfolio", description: "My personal portfolio website showcasing my projects, skills, and experience as a Frontend and Full Stack Developer.", link: "https://my-website-margret.vercel.app/", tag: "Portfolio" },
-  { title: "Mayondo Wood & Furniture", description: "A system that tracks all company activities to make work easier.", link: "https://github.com/margret256/MAYONDOPROGECT", tag: "Management System" },
+  { title: "Mayondo Wood & Furniture", description: "A system that tracks and manages all company sales and inventory throughout the year of sales.", link: "https://github.com/margret256/MAYONDOPROGECT", tag: "Management System" },
 ];
 
 const contactEmail = "lwangamargret68@gmail.com";
@@ -91,8 +91,8 @@ export default function Portfolio() {
               <div className="pf-hero-eyebrow">Frontend Developer &amp; Full Stack Engineer</div>
               <h1>Hello, I'm <br /><span className="highlight">Margret Nanyonga</span></h1>
               <p className="pf-hero-sub">
-                Motivated Frontend Developer with hands-on experience building responsive,
-                user-friendly web interfaces. Passionate about community-driven, impact-focused technology.
+                Motivated Frontend Developer and UI/UX Designer with hands-on experience building and designing responsive,
+                user-friendly web and mobile interfaces. Passionate about community-driven, impact-focused technology.
               </p>
               <div className="pf-hero-actions">
                 <a href="#contact" className="pf-btn-primary">Hire Me</a>
@@ -156,7 +156,7 @@ export default function Portfolio() {
                     <p>
                       I'm a motivated <strong>Frontend Developer</strong> with hands-on experience
                       building responsive, user-friendly web interfaces using{" "}
-                      <strong>JavaScript, React.js, Vue.js, HTML5, and CSS3</strong>. Currently
+                      <strong>JavaScript, TypeScript, React.js, React Native, Next.js, Nest.js, Vue.js, HTML5, and CSS3</strong>. Currently
                       pursuing a Certificate of Apprenticeship in Software Engineering at{" "}
                       <strong>Refactory Academy, Kampala</strong>.
                     </p>
