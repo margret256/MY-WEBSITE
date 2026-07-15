@@ -1,6 +1,6 @@
 import { useEffect } from "react";
 import Layout from "./Layout";
-import voxelPreview from "./assets/images/voxel-ui.png";
+import voxelPreview from "./assets/images/Voxel-ui.png";
 import agromarketPreview from "./assets/images/marketplace-ui.png";
 import dccPreview from "./assets/images/resturant-ui.png";
 import beyondsportsPreview from "./assets/images/beyondsports.png";
