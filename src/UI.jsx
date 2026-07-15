@@ -1,5 +1,5 @@
 import { useEffect } from "react";
-import Layout from "./Layout";
+import layout from "./layout";
 import voxelPreview from "./assets/images/Voxel-ui.png";
 import agromarketPreview from "./assets/images/marketplace-ui.png";
 import dccPreview from "./assets/images/resturant-ui.png";
