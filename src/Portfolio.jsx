@@ -97,7 +97,7 @@ export default function Portfolio() {
               </p>
               <div className="pf-hero-actions">
                 <a href="#contact" className="pf-btn-primary">Hire Me</a>
-                <a href="public/" download="Margret-Nanyonga_CV-FullStack.docx" className="pf-btn-outline">
+                <a href="public/Margret_Nanyonga_CV_FullStack.docx" download="Margret_Nanyonga_CV_FullStack.docx" className="pf-btn-outline">
                   <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="12" y1="12" x2="12" y2="18"/><polyline points="9 15 12 18 15 15"/></svg>
                   Margret Nanyonga CV
                 </a>
