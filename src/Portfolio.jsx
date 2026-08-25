@@ -41,7 +41,7 @@ const skillCategories = [
 
 const projects = [
   { title: "Beyond Sports Unified Corporate Sports Platform", description: "A platform for unified corporate sports management and engagement. Improving employee and individual wellness and team building through participating in setup challenges.", link: "https://beyondsports.fitness/", tag: "Sports Platform" },
-  { title: "Grocery Buddy", description: "Add, edit, and delete grocery items, track amounts spent, and manage your list any time.", link: "https://github.com/margret256/GRORECYBUDDY", tag: "E-Commerce" },
+  { title: "Grocery Buddy", description: "Add, edit, and delete grocery items, track amounts spent, and manage your list any time.", link: "https://grocery-70il.onrender.com/", tag: "E-Commerce" },
   { title: "Farm Input Marketplace", description: "A marketplace for farmers to buy and sell agricultural inputs, bringing farmers and suppliers together to buy and sell agricultural products.", link: "https://github.com/margret256/FARM-INPUT-MARKETPLACE", tag: "Mobile App" },
   { title: "My Portfolio", description: "My personal portfolio website showcasing my projects, skills, and experience as a Frontend and Full Stack Developer.", link: "https://my-website-margret.vercel.app/", tag: "Portfolio" },
   { title: "Mayondo Wood & Furniture", description: "A system that tracks and manages all company sales, Stock, Expenses and inventory throughout the year of sales.", link: "https://mayondoprogect.onrender.com", tag: "Management System" },
