@@ -2,7 +2,7 @@ import { useEffect } from "react";
 import Layout from "./layout";
 import voxelPreview from "./assets/images/Voxel-ui.png";
 import agromarketPreview from "./assets/images/marketplace-ui.png";
-import dccPreview from "./assets/images/resturant-ui.png";
+import dccPreview from "./assets/images/restaurant-ui.png";
 import beyondsportsPreview from "./assets/images/beyondsports.png";
 
 const uiuxProjects = [

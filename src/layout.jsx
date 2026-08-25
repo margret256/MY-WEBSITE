@@ -121,12 +121,13 @@ export default function Layout({ children }) {
         .pf-uiux-item { display: flex; align-items: center; gap: 4rem; margin-bottom: 5.5rem; }
         .pf-uiux-item:last-child { margin-bottom: 0; }
         .pf-uiux-item.reverse { flex-direction: row-reverse; }
-        .pf-uiux-visual, .pf-uiux-content { flex: 1 1 50%; min-width: 0; }
+        .pf-uiux-visual { flex: 1.2 1 58%; min-width: 0; }
+        .pf-uiux-content { flex: 0.8 1 42%; min-width: 0; }
         @media (max-width: 900px) {
           .pf-uiux-item, .pf-uiux-item.reverse { flex-direction: column; gap: 2rem; }
         }
-        .pf-uiux-frame { border-radius: 14px; overflow: hidden; box-shadow: 0 20px 60px rgba(0,0,0,0.45); border: 1px solid var(--dark-border); aspect-ratio: 4 / 3; background: #f4f4f4; }
-        .pf-uiux-frame img { width: 100%; height: 100%; object-fit: cover; object-position: var(--focal, top center); display: block; }
+        .pf-uiux-frame { border-radius: 14px; overflow: hidden; box-shadow: 0 20px 60px rgba(0,0,0,0.45); border: 1px solid var(--dark-border); background: #f4f4f4; }
+        .pf-uiux-frame img { width: 100%; height: auto; object-position: var(--focal, top center); display: block; }
         .pf-uiux-eyebrow { color: var(--gold); font-weight: 800; font-size: 0.78rem; letter-spacing: 1.5px; text-transform: uppercase; margin-bottom: 0.9rem; }
         .pf-uiux-title { font-size: clamp(1.6rem, 3vw, 2.2rem); font-weight: 800; color: var(--text-primary); margin-bottom: 1rem; }
         .pf-uiux-desc { color: var(--text-muted); line-height: 1.8; font-size: 0.95rem; margin-bottom: 1.6rem; max-width: 460px; }
